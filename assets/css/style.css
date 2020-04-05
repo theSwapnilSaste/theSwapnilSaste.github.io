@@ -625,18 +625,18 @@ will add in next commit
   color: #fff;
 }
 
-.contact .php-email-form {
+.contact .static-email-form {
   width: 100%;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-.contact .php-email-form .form-group {
+.contact .static-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .static-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -644,7 +644,7 @@ will add in next commit
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .static-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -653,7 +653,7 @@ will add in next commit
   font-weight: 600;
 }
 
-.contact .php-email-form .sent-message {
+.contact .static-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -662,14 +662,14 @@ will add in next commit
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .static-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .static-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -682,21 +682,21 @@ will add in next commit
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .static-email-form input, .contact .static-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contact .static-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contact .static-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .static-email-form button[type="submit"] {
   background: #ff2222;
   border: 0;
   padding: 10px 24px;
@@ -705,7 +705,7 @@ will add in next commit
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .static-email-form button[type="submit"]:hover {
   background: #ed3737;
 }
 
